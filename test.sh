@@ -1,2 +1,2 @@
 #!/bin/bash
-echo"Assalamualikum mere bhaio aur dosto"
+echo"Assalamualikum mere bhai -o- aur dosto"
