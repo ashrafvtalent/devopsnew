@@ -53,7 +53,7 @@ pipeline{
     }
   }
 
-  stage ('Stage5')
+ stage ('Stage5')
  {
     agent { label 'Slave2'}
     
