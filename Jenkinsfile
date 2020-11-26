@@ -44,24 +44,9 @@ pipeline{
 
  }
 
- }
-
-}
-
-
-pipeline{
  agent{
   label 'Slave2'
  }
-
- stages{
-
- stage ('checkout')
- {
-     steps {
-       checkout scm
- }
- }  
 
  stage ('Stage4')
  {
@@ -87,4 +72,6 @@ pipeline{
  }
 
 }
+
+
 
