@@ -44,12 +44,6 @@ pipeline{
 
  }
 
- 
-
-
- label 'Slave2'
- 
-
 
  stage ('checkout')
  {
