@@ -6,6 +6,7 @@ pipeline{
  {
     agent { 
        node {label 'Slave1'}
+       customWorkspace '/home/ubuntu/workspace/pipeline1/myfile1'
        }
    
     steps {
@@ -21,6 +22,7 @@ pipeline{
  {
     agent {
        node { label 'Slave1'}
+       customWorkspace '/home/ubuntu/workspace/pipeline1/myfile1'
        }
     steps {
 
@@ -35,6 +37,7 @@ pipeline{
  {
     agent {
        node { label 'Slave1'}
+       customWorkspace '/home/ubuntu/workspace/pipeline1/myfile1'
        }
 
     steps {
@@ -50,6 +53,7 @@ pipeline{
  {
     agent {
        node { label 'Slave2'}
+       customWorkspace '/home/ubuntu/workspace/pipeline1/myfile2'
        }
     steps {
 
@@ -63,6 +67,7 @@ pipeline{
  {
     agent {
        node { label 'Slave2'}
+       customWorkspace '/home/ubuntu/workspace/pipeline1/myfile2'
        }
     steps {
 
