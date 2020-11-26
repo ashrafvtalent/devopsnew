@@ -44,10 +44,10 @@ pipeline{
 
  }
 
- }
+ 
 
 
-  label 'Slave2'
+ label 'Slave2'
  
 
 
@@ -78,5 +78,7 @@ pipeline{
     }
 
   }
+
+ }
 
 }
