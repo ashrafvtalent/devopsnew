@@ -45,12 +45,7 @@ pipeline{
  }
 
 
- stage ('checkout')
- {
-     steps {
-       checkout scm
- }
- }  
+ 
 
  stage ('Stage4')
  {
