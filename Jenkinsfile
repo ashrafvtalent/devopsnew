@@ -1,5 +1,5 @@
 pipeline{
- agent{
+agent{
   label 'Slave1'
  }
 
@@ -44,7 +44,7 @@ pipeline{
 
  }
 
- agent{
+agent{
   label 'Slave2'
  }
 
