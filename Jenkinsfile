@@ -1,5 +1,5 @@
-pipeline {
- agent {
+pipeline{
+ agent{
   label 'Slave1'
  }
 
@@ -46,10 +46,10 @@ pipeline {
 
  }
 
- agent {
+ agent{
   label 'Slave2'
  }
- stages {
+ stages{
 
  stage ('checkout')
  {
