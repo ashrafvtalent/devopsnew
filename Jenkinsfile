@@ -4,7 +4,9 @@ pipeline{
  
  stage ('Stage1')
  {
-    agent { label 'Slave1'}
+    agent { 
+       node {label 'Slave1'}
+       }
    
     steps {
 
@@ -17,8 +19,9 @@ pipeline{
 
  stage ('Stage2')
  {
-    agent { label 'Slave1'}
-
+    agent {
+       node { label 'Slave1'}
+       }
     steps {
 
        sh "cd /home/ubuntu/workspace/pipeline1 ; chmod +x stage2.sh"
@@ -30,7 +33,9 @@ pipeline{
 
  stage ('Stage3')
  {
-    agent { label 'Slave1'}
+    agent {
+       node { label 'Slave1'}
+       }
 
     steps {
 
@@ -43,8 +48,9 @@ pipeline{
 
  stage ('Stage4')
  {
-    agent { label 'Slave2'}
-    
+    agent {
+       node { label 'Slave2'}
+       }
     steps {
 
        sh "cd /home/ubuntu/workspace/pipeline1 ; chmod +x stage4.sh"
@@ -55,8 +61,9 @@ pipeline{
 
  stage ('Stage5')
  {
-    agent { label 'Slave2'}
-    
+    agent {
+       node { label 'Slave2'}
+       }
     steps {
 
        sh "cd /home/ubuntu/workspace/pipeline1 ; chmod +x stage5.sh"
