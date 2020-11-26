@@ -46,10 +46,10 @@ pipeline{
 
  }
 
- agent{
+
   label 'Slave2'
- }
- stages{
+ 
+
 
  stage ('checkout')
  {
