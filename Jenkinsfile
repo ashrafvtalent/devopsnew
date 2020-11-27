@@ -77,7 +77,7 @@ pipeline{
 
        sh "cd /home/ubuntu/workspace/pipeline/Myfile2 ; sudo -i"
        sh "cd /home/ubuntu/workspace/pipeline/Myfile2 ; sudo chmod +x stage5.sh"
-       sh "cd /home/ubuntu/workspace/pipeline/Myfile2 ; sudo /stage5.sh"
+       sh "cd /home/ubuntu/workspace/pipeline/Myfile2 ; sudo ./stage5.sh"
        
     }
 
