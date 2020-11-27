@@ -11,8 +11,9 @@ pipeline{
    
     steps {
 
-       sh "cd /home/ubuntu/workspace/pipeline1 ; chmod +x stage1.sh"
-       sh "cd /home/ubuntu/workspace/pipeline1 ; ./stage1.sh"
+       sh "cd /home/ubuntu/workspace/pipeline ; sudo -i"
+       sh "cd /home/ubuntu/workspace/pipeline ; chmod +x stage1.sh"
+       sh "cd /home/ubuntu/workspace/pipeline ; ./stage1.sh"
        
     }
 
@@ -26,8 +27,9 @@ pipeline{
        }
     steps {
 
-       sh "cd /home/ubuntu/workspace/pipeline1 ; chmod +x stage2.sh"
-       sh "cd /home/ubuntu/workspace/pipeline1 ; ./stage2.sh"
+       sh "cd /home/ubuntu/workspace/pipeline ; sudo -i"
+       sh "cd /home/ubuntu/workspace/pipeline ; chmod +x stage2.sh"
+       sh "cd /home/ubuntu/workspace/pipeline ; ./stage2.sh"
        
     }
 
@@ -42,8 +44,9 @@ pipeline{
 
     steps {
 
-       sh "cd /home/ubuntu/workspace/pipeline1 ; chmod +x stage3.sh"
-       sh "cd /home/ubuntu/workspace/pipeline1 ; ./stage3.sh"
+       sh "cd /home/ubuntu/workspace/pipeline ; sudo -i"
+       sh "cd /home/ubuntu/workspace/pipeline ; chmod +x stage3.sh"
+       sh "cd /home/ubuntu/workspace/pipeline ; ./stage3.sh"
        
     }
 
@@ -57,8 +60,9 @@ pipeline{
        }
     steps {
 
-       sh "cd /home/ubuntu/workspace/pipeline1 ; chmod +x stage4.sh"
-       sh "cd /home/ubuntu/workspace/pipeline1 ; ./stage4.sh"
+       sh "cd /home/ubuntu/workspace/pipeline ; sudo -i"
+       sh "cd /home/ubuntu/workspace/pipeline ; chmod +x stage4.sh"
+       sh "cd /home/ubuntu/workspace/pipeline ; ./stage4.sh"
        
     }
   }
@@ -71,8 +75,9 @@ pipeline{
        }
     steps {
 
-       sh "cd /home/ubuntu/workspace/pipeline1 ; chmod +x stage5.sh"
-       sh "cd /home/ubuntu/workspace/pipeline1 ; ./stage5.sh"
+       sh "cd /home/ubuntu/workspace/pipeline ; sudo -i"
+       sh "cd /home/ubuntu/workspace/pipeline ; chmod +x stage5.sh"
+       sh "cd /home/ubuntu/workspace/pipeline ; ./stage5.sh"
        
     }
 
